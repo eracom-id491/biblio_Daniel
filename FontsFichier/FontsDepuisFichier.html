@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fonts via fichier</title>
+    <style media="screen">
+      @font-face {
+        font-family:"bluunext";
+        src: url("Typos/BluuNext-master/Fonts/webfonts/bluunext-bold-webfont.woff");
+      }
+      @font-face {
+        font-family:"Compagnon";
+        src: url("Typos/compagnon-master/fonts/webfonts/Compagnon-Roman.woff");
+      }
+      @font-face {
+        font-family:"karrik";
+        src: url("Typos/karrik_fonts-main/fonts/Web/WOFF/Karrik-Regular.woff");
+      }
+      @font-face {
+        font-family:"tinyfonts";
+        src: url("Typos/tinyfonts-master/fonts/webfonts/TINY5x3-60.woff");
+      }
+    /* Allignage */
+      #TextExpo{
+        line-height: 10px;
+        padding-bottom: 20px;
+      }
+      h4{
+        line-height: 0.4px;
+      }
+
+      #TextExpo h1{
+        padding-bottom: 5px;
+      }
+
+      .Titre{
+        padding-bottom: 0.4px;
+        font-family:"Compagnon";
+
+      }
+      /* Attribution des typos */
+      .Typo1{
+        font-family:"bluunext";
+      }
+      .Typo2{
+        font-family:"Compagnon";
+      }
+      .Typo3{
+        font-family:"karrik";
+      }
+      .Typo4{
+        font-family:"tinyfonts";
+      }
+
+    </style>
+  </head>
+  <body>
+<!-- Titre -->
+    <div class="Titre">
+      <h1>Fonts via fichier</h1>
+    </div>
+<!-- Typos exemples de textes -->
+    <div class="Typo1" id="TextExpo">
+      <h1>bluunext</h1>
+      <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+      <h4>1 2 3 4 5 6 7 8 9 0</h4>
+      <h4># @ ¶ $ ! . ? * + ""</h4>
+    </div>
+
+    <div class="Typo2" id="TextExpo">
+      <h1>Compagnon</h1>
+      <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+      <h4>1 2 3 4 5 6 7 8 9 0</h4>
+      <h4># @ ¶ $ ! . ? * + ""</h4>
+    </div>
+    <div class="Typo3" id="TextExpo">
+      <h1>karrik</h1>
+      <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+      <h4>1 2 3 4 5 6 7 8 9 0</h4>
+      <h4># @ ¶ $ ! . ? * + ""</h4>
+    </div>
+    <div class="Typo4" id="TextExpo">
+      <h1>tinyfonts</h1>
+      <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+      <h4>1 2 3 4 5 6 7 8 9 0</h4>
+      <h4># @ ¶ $ ! . ? * + ""</h4>
+    </div>
+  </body>
+</html>

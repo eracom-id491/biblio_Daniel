@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MediaQuery</title>
+    <style media="screen">
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+    h1
+    {
+              font-family: 'Roboto', sans-serif;
+    }
+
+      body p{
+        font-size: 14px;
+        color: red;
+        font-family: 'Roboto', sans-serif;
+      }
+      @media(min-width:600px){
+        body p
+        {
+          font-size: 19px;
+          color: blue;
+          font-family: 'Lato', sans-serif;
+        }
+      }
+      @media(min-width:1000px){
+        body p
+        {
+          font-size: 25px;
+          color: green;
+          font-family: 'Raleway', sans-serif;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MediaQuery</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </body>
+</html>

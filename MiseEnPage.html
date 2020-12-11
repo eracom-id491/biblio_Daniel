@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body
+      {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 20px;
+        grid-template-columns: 100px 50% auto;
+      }
+
+      .Menu
+{
+  grid-column: span 5;
+}
+
+.Titre
+{
+  grid-column: 1 / -1;
+}
+
+.main
+{
+  grid-column: span 4;
+}
+
+.footer
+{
+  grid-column: 1 / -1;
+}
+
+      .Article
+      {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      .Menu
+      {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      .Titre
+      {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      .footer
+      {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="Menu">
+      Menu
+    </nav>
+    <div class="Titre">
+      Titre
+    </div>
+    <main class="main">
+    <article class="Article">
+      Article 1
+    </article>
+    <article class="Article">
+      Article 2
+    </article>
+    <footer class="footer">
+      Footer
+    </footer>
+  </main>
+  </body>
+</html>

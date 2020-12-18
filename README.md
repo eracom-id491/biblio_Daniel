@@ -12,9 +12,9 @@
  - Fonts Web
 
  Contient un dossier
- Images
- Typos
- WebFonts
+ - Images
+ - Typos
+ - WebFonts
 
  1) Galerie
  

@@ -11,15 +11,15 @@
  - Fonts depuis un fichier (Ordinateur)
  - Fonts Web
 
- *Contient un dossier
- *Images
- *Typos
- *WebFonts
+ Contient un dossier
+ Images
+ Typos
+ WebFonts
 
  1) Galerie
  
  Affiche une banque d'images.
- *Utilise le fichier "Images"
+ |Utilise le fichier "Images"
  
  2) MediaQuery
  
@@ -39,7 +39,7 @@
  
  Affiche trois typos depuis un fichier
  local.
- *Utilise le fichier "FontsFichier/Typos"
+ |Utilise le fichier "FontsFichier/Typos
  
  1) Galerie
  
